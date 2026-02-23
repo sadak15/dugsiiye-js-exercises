@@ -1,0 +1,11 @@
+
+
+{
+  "id": 1,
+  "name": "Ahmed Ali",
+  "city": "Mogadishu",
+  "orders": [
+    { "id": 101, "product": "Laptop", "quantity": 1 },
+    { "id": 102, "product": "Mouse", "quantity": 2 }
+  ]
+}
