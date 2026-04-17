@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Language Translator</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Language Translator</h1>
+
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="">Loading languages...</option>
+        </select>
+
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="">Loading languages...</option>
+        </select>
+
+        <label for="text">Text to Translate:</label>
+        <textarea id="text" placeholder="Enter text here..."></textarea>
+
+        <button id="translateBtn">Translate</button>
+
+        <h3>Translated Text:</h3>
+        <p id="output"></p>
+    </div>
+
+    <script src="ex39.js"></script>
+</body>
+</html>
